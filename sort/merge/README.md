@@ -10,6 +10,9 @@
  분할한 원소들을 합치면서 정렬
  ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99DF60485AFACBD603A744)
 
+### 단점
+정렬하는데 추가적인 메모리가 필요하다.
+
 ## 시간복잡도
 최악 : N * logN
 최고 : N * logN
