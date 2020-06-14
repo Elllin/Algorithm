@@ -6,6 +6,7 @@
  정렬할 수들을 원소단위로 분할한다.
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F994E1D485AFACB77269A60)
 
+
 2. 병합과정
  분할한 원소들을 합치면서 정렬
  ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F99DF60485AFACBD603A744)
