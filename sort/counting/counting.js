@@ -13,11 +13,8 @@ function counting(arr, max) {
   }
 
   for (let i = 0; i <= max; i++) {
-    if (count[i]) {
-      //count값이 0이 아니면
-      for (let j = 0; j < count[i]; j++) {
-        result.push(i);
-      }
+    for (let j = 0; j < count[i]; j++) {
+      result.push(i);
     }
   }
 
