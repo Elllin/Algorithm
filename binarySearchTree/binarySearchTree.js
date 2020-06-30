@@ -93,6 +93,7 @@ tree.insert(18);
 tree.insert(25);
 tree.insert(6);
 tree.inOrderTraverse(print);
+console.log(tree.left.left);
 
 function print(node) {
   console.log(node);
