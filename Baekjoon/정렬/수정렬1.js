@@ -1,3 +1,5 @@
+//방법1
+
 // const readline = require("readline");
 // const rl = readline.createInterface({
 //   input: process.stdin,
@@ -15,6 +17,7 @@
 //   process.exit();
 // });
 
+//방법2
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,
