@@ -12,6 +12,6 @@
 String.fromCharCode(asciiNum)
  (65 -> A)
 
-- 아스키코드 -> 문자
+- 문자 -> 아스키코드
 "문자열".charCodeAt(문자열 자릿수);
  (A -> 65)
