@@ -8,8 +8,8 @@ function solution(answers) {
     getNumberOfCorrect(value)
   );
 
+  const maxNum = Math.max(...numberOfCorrectAnswers);
   numberOfCorrectAnswers.forEach((value, index) => {
-    const maxNum = Math.max(...numberOfCorrectAnswers);
     if (value === maxNum) return answer.push(index + 1);
   });
 
