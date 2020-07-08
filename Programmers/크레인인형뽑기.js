@@ -1,10 +1,10 @@
 function solution(board, moves) {
-  var answer = 0;
-  let basket = [];
-  let newBoard = [...board];
+  let answer = 0;
+  const basket = [];
+  const newBoard = [...board];
 
   moves.forEach((index) => {
-    let doll = pickupDoll(index - 1);
+    const doll = pickupDoll(index - 1);
     if (!doll) return;
 
     if (basket[basket.length - 1] === doll) {
@@ -18,7 +18,7 @@ function solution(board, moves) {
   function pickupDoll(index) {
     for (let i = 0; i < newBoard.length; i++) {
       if (newBoard[i][index]) {
-        let doll = newBoard[i][index];
+        const doll = newBoard[i][index];
         newBoard[i][index] = 0;
         return doll;
       }
