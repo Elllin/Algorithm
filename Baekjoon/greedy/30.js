@@ -13,7 +13,6 @@ rl.on("line", function (line) {
     result = -1;
   } else {
     const sum = input.reduce((acc, value) => acc + value);
-    console.log(sum);
     if (sum % 3) {
       result = -1;
     } else {
@@ -21,7 +20,6 @@ rl.on("line", function (line) {
       result = input.join("");
     }
   }
-  //각자리수의 합이  3의 배수이면서 끝이 0인수
 
   console.log(result);
 
