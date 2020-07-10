@@ -9,7 +9,7 @@ rl.on("line", function (line) {
 }).on("close", function () {
   let result = 0;
 
-  const length = input.shift();
+  input.shift();
   const time = input[0]
     .split(" ")
     .map((v) => parseInt(v))
