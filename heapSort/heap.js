@@ -1,15 +1,14 @@
 function heapSort(arr) {
   function swap(arr, i, j) {
-    let temp = arr[i];
+    const temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
   }
 
-  function siftDown(arr, index, size) {
+  function siftDown(arr, index, lastNode) {
     const left = 2 * index + 1; //왼쪽 자식 노드
     const right = 2 * index + 2; //오른쪽 자식 노드
     let largest = index;
-    const lastNode = size - 1;
 
     if (left <= lastNode && arr[largest] < arr[left]) {
       largest = left;
@@ -42,8 +41,8 @@ function heapSort(arr) {
 
   while (endNode > root) {
     swap(arr, root, endNode);
-    siftDown(arr, root, endNode);
     endNode--;
+    siftDown(arr, root, endNode);
   }
 }
 
