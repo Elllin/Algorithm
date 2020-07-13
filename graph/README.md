@@ -1,4 +1,4 @@
-# Graph
+# 그래프 (Graph)
 
 ## 용어
 ![](https://t1.daumcdn.net/cfile/tistory/9957DA4C5A8D59EA15)
