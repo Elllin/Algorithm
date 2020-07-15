@@ -13,13 +13,11 @@ rl.on("line", function (line) {
     let gruopWord = true;
     let strArr = [str[0]];
     for (let i = 1; i < str.length; i++) {
-      if (strArr[strArr.length - 1] === str[i]) continue;
+      if (!strArr.includes(str[i])) strArr.push(str[i]);
       else {
-        if (strArr.includes(str[i])) {
+        if (strArr.indexOf(str[i]) !== strArr.length - 1) {
           gruopWord = false;
           break;
-        } else {
-          strArr.push(str[i]);
         }
       }
     }
