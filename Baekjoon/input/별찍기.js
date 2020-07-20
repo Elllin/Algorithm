@@ -1,5 +1,4 @@
 const readline = require("readline");
-const { format } = require("path");
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
