@@ -13,14 +13,13 @@ rl.on("line", function (line) {
   for (let i = 1; i <= input; i++) {
     answer = "";
     let m = input - i;
-    repeatBlank(m, " ");
-    repeatBlank(n, "*");
-    // repeatBlank(m, " ");
+    plusAnswer(m, " ");
+    plusAnswer(n, "*");
     console.log(answer);
     n += 2;
   }
 
-  function repeatBlank(n, x) {
+  function plusAnswer(n, x) {
     for (let i = 0; i < n; i++) {
       answer += x;
     }
