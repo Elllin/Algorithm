@@ -8,7 +8,7 @@ rl.on("line", function (line) {
   input = line;
   rl.close();
 }).on("close", function () {
-  answer = input
+  const answer = input
     .split(" ")
     .map((v) => parseInt(v))
     .reduce((value, acc) => value + acc);
