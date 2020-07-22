@@ -13,7 +13,6 @@ rl.on("line", function (line) {
     const stack = [];
     stack.push(v[0]);
     for (let i = 1; i < v.length; i++) {
-      //   console.log(stack[stack.length - 1] + v[i]);
       if (!stack.length) stack.push(v[i]);
       else if (stack[stack.length - 1] + v[i] === "()") {
         stack.pop();
